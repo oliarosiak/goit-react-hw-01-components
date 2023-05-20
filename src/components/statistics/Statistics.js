@@ -1,6 +1,6 @@
 export default function Statistics({ title, stats }) {
     return (
-        <section class="statistics">
+        <section className="statistics">
             <h2 className="title">Upload stats</h2>
 
             <ul className="stat-list">
