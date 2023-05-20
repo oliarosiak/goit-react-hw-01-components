@@ -8,15 +8,13 @@ import Statistics from './statistics/Statistics';
 import FriendList from './friendList/FriendList';
 import TransactionHistory from './transactionHistory/TransactionHistory';
 
-// console.log(friends);
-// console.log(transactions);
-
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
         display: 'flex',
+        // flexDirection: "column",
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,

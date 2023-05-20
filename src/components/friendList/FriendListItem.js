@@ -1,7 +1,6 @@
 import css from './FriendListItem.module.css';
 
 export default function FriendListItem({ avatar, name, isOnline }) {
-    console.log(isOnline);
     return (
         <li className="item">            
             <span className={isOnline ? css.online : css.offline}></span>
