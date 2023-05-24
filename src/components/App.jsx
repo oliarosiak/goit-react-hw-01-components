@@ -1,7 +1,7 @@
-import user from 'user.json';
-import data from 'data.json';
-import friends from 'friends.json';
-import transactions from 'transactions.json';
+import user from 'data/user.json';
+import data from 'data/data.json';
+import friends from 'data/friends.json';
+import transactions from 'data/transactions.json';
 
 import Profile from "components/profile/Profile";
 import Statistics from 'components/statistics/Statistics';
@@ -11,8 +11,7 @@ import TransactionHistory from 'components/transactionHistory/TransactionHistory
 export const App = () => {
   return (
     <div
-      style={{
-        // height: '100vh',       
+      style={{               
         background: 'linear-gradient(to right, #74ebd5, #acb6e5)',
         display: 'flex',
         flexDirection: "column",
@@ -32,8 +31,7 @@ export const App = () => {
         stats={user.stats}
       />
 
-      <Statistics title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
+      <Statistics title="Upload stats" stats={data} />     
 
       <FriendList friends={friends} />
 
