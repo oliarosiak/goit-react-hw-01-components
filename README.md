@@ -9,6 +9,8 @@ Creating a user profile.
 `«Module CSS»`
 `«prop-types / npm»`
 
+[React project template](https://github.com/goitacademy/react-homework-template#readme)
+
 ## Project structure
 
 `«Profile section»`
